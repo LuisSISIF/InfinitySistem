@@ -1,0 +1,36 @@
+.logo {
+    grid-column: 1;
+    grid-row: 1;
+    width: 200px;
+    border-radius: 300px;
+    display: flex;
+    margin-left: 22%;
+    margin-bottom: 1%;
+  }
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    margin-left: 10%;
+  }
+
+  .conteudo {
+    height: auto;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 2%;
+  }
+
+  .conteudo-long {
+    height: auto;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1%;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 2%;
+  }

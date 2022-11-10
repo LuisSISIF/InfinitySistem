@@ -1,0 +1,105 @@
+.container {
+    background-color: rgba(0,0,0,0.7);
+    min-height: 20vh;
+    gap: 5px;
+    display: grid;
+    grid-template-columns:1fr;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+  }
+  .logo {
+    grid-column: 1;
+    grid-row: 1;
+    width: 200px;
+    border-radius: 300px;
+    display: flex;
+    margin-left: 28%;
+    margin-bottom: 1%;
+  }
+  .nome-empresa {
+    font-style: italic;
+    font-size: 50px;
+    color: #0598d74d;
+    font-weight: bolder;
+    margin-left: 30%;
+    grid-column: 1/2;
+    grid-row: 1;
+  }
+  .header {
+    margin-top: -1%;
+    grid-column: 1;
+    grid-row: 2;
+    border-top: solid #0597d7 1px;
+    padding-top: 8px;
+  }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(4, 240px);
+      margin-left: 15%;
+    }
+
+    .conteudo {
+        height: auto;
+        width: 1000px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin-top: 5%;
+        text-align: left;
+      }
+
+      .conteudo-long {
+        height: auto;
+        width: 1000px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 1%;
+        text-align: left;
+        margin-bottom: 20px;
+      }
+
+      .traco{
+        height:3px;
+        width: 100%;
+        margin-left: 0;
+        background-color: #0597d7;
+        margin-top: 75px;
+      }
+    
+      .img-content {
+        height: 265px;
+        width: 400px;
+        margin-left: 25px;
+        border-radius: 10%;
+        grid-column: 1/2;
+        opacity: 0.8;
+      }
+      .img-content-long {
+        height: 265px;
+        width: 450px;
+        border-radius: 10%;
+        grid-column: 1/2;
+        grid-row: 1;
+        opacity: 0.8;
+        margin-left: 25px;
+        margin-top: 5%;
+        display: flex;
+      }
+      .indice {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: #0597d7;
+        margin-left: 8%;
+      }
+
+      .title-post {
+        color: #0597d7;
+        font-size: 35px;
+        grid-column: 2/3;
+        margin-left: -200%;
+        margin-top: 45%;
+      }
