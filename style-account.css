@@ -1,0 +1,148 @@
+body{
+    background-color: rgba(2, 3, 43, 0.925);
+    }
+    
+    .container{
+        display: flex;
+        gap:40px
+    }
+    
+    .lat{
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        min-height: 100vh;
+        background-color: rgba(2, 3, 43, 0.945);
+        gap: 20px;
+    }
+    
+    
+    .logo-sistem img{
+        width: 270px;
+        height: 150px;
+        margin-top: 30px;
+    
+    }
+    
+    .menu-lat{
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        max-height: 318px;
+        overflow: scroll;
+    }
+    
+    .menu-lat::-webkit-scrollbar {
+        display:none;
+      }
+    
+    .itens-lat{
+        width: 80%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border: 0.5px solid rgba(3, 143, 161, 0.24);
+        border-left: none;
+        padding-left: 15px;
+    }
+    .itens-lat:hover{
+        background-color: rgba(10, 144, 227, 0.374);
+    }
+    
+    .itens-lat img{
+        width: 35px;
+        height: 35px;
+    
+    }
+    
+    .btn-lat{
+        align-items: center;
+        text-align: left;
+        width: 280px;
+        height: 50px;
+        background: none;
+        padding-left: 10px;
+        font-size: 22px;
+    
+    }
+    
+    .logout{
+        width: 80%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border: 0.5px solid rgba(3, 143, 161, 0.24);
+        border-left: none;
+        padding-left: 15px;
+        margin-top: 20px;
+        
+    }
+    
+    .logout img{
+        width: 35px;
+        height: 35px;
+    }
+    
+    .logout:hover{
+        background-color: rgba(10, 144, 227, 0.374);
+    }
+    
+    .btn-logout{
+        background: none;
+        padding-left: 10px;
+        font-size: 22px;
+    }
+    
+    .inform {
+        text-align: center;
+    }
+
+    .content{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .title-page{
+        padding: 20px;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .account-menu{
+        width: 230px;
+        height: 180px;
+    }
+
+    .infcard{
+        display: block;
+
+        width: 230px;
+        height: 180px;
+        background-color: aliceblue;
+
+        
+    }
+
+    .text-center{
+        text-align: center;
+        
+        
+    }
+
+    .user-img{
+        height: 125px;
+        width: 125px;
+        
+    }
+
+    .user-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
