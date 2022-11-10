@@ -12,7 +12,8 @@
     <main class="page">
         <div class="container">
             <aside class="lat">
-                <div class="foto-user">
+                <div class="logo-sistem">
+                    <img src="./images/logo.png" alt="">
                 </div>
                 <div class="menu-lat">
 
@@ -66,7 +67,8 @@
                 </div>
 
                 <div class="inform">
-                <?= date('d/m/Y');?>
+                    <?= 
+                    date('d/m/Y');?>
                 </div>
 
             </aside>

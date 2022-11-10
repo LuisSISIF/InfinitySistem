@@ -1,18 +1,22 @@
+body{
+background-color: rgba(2, 3, 43, 0.925);
+}
+
 .lat{
     display: flex;
     flex-direction: column;
     max-width: 300px;
     min-height: 100vh;
-    background: linear-gradient(90deg, rgb(8, 24, 97) 0%, rgb(7, 34, 78) 100%);
+    background-color: rgba(2, 3, 43, 0.945);
     gap: 20px;
 }
-.foto-user{
-    width: 150px;
+
+
+.logo-sistem img{
+    width: 270px;
     height: 150px;
-    background-color: green;
-    border-radius: 50%;
     margin-top: 30px;
-    align-self: center;
+
 }
 
 .menu-lat{
