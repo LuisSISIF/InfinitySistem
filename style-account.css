@@ -2,16 +2,11 @@ body{
     background-color: rgba(2, 3, 43, 0.925);
     }
     
-    .container{
-        display: flex;
-        gap:40px
-    }
-    
     .lat{
         display: flex;
         flex-direction: column;
         max-width: 300px;
-        min-height: 100vh;
+        height: 100vh;
         background-color: rgba(2, 3, 43, 0.945);
         gap: 20px;
     }
@@ -95,54 +90,156 @@ body{
     
     .btn-logout{
         background: none;
-        padding-left: 10px;
+        width: 100%;
+        height: 100%;
         font-size: 22px;
+        padding-left: 5px;
+        text-align: left;
     }
     
     .inform {
         text-align: center;
     }
-
-    .content{
-        height: 100vh;
-        width: 100%;
-    }
-
-    .title-page{
-        padding: 20px;
-        font-size: 1rem;
-        font-weight: 700;
-    }
-
-    .account-menu{
+    
+    .card_user{
+        display: flex;
+        flex-direction: column;
         width: 230px;
-        height: 180px;
+        height: max-content;
+        background-color: rgba(2, 3, 43, 0.945);
+        border-radius: 10px;
+        align-items: center;
+        gap: 5px;
+    
     }
-
-    .infcard{
-        display: block;
-
-        width: 230px;
-        height: 180px;
-        background-color: aliceblue;
-
-        
-    }
-
-    .text-center{
+    
+    .divinf{
+        margin-top: 20px;
+        height: 230px;
+        width: 200px;
         text-align: center;
-        
-        
+        border-bottom: solid 1px gray;
     }
-
-    .user-img{
-        height: 125px;
-        width: 125px;
-        
+    
+    .foto img{
+        width: 130px;
+        height: 130px;
+        border-radius: 80px;
     }
-
-    .user-img img{
+    
+    .txtinf{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        font-weight: 600px;
+        color: white;
+        gap: 10px;
+    }
+    .menuinf_user{
+        width: 190px;
+        justify-content: left;
+        font-size: 15px;
+        padding-bottom:25px;
+    }
+    .menuinf_user li{
         width: 100%;
-        height: 100%;
-        border-radius: 50%;
+        list-style: none;
+        margin-top: 15px;
     }
+    .menuinf_user img{
+        padding-right: 8px;
+        height: 20px;
+    }
+    .menuinf_user a:hover{
+        color: rgb(6, 241, 222);
+    }
+    
+    .basicinformation{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(2, 3, 43, 0.945);
+        width: 600px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    .sectitle{
+        height: 20px;
+        padding: 1rem;
+        border-bottom: 0.5px solid white;
+    }
+    
+    .card_body{
+        padding: 1rem;
+        padding-right: 1.5rem;
+        gap:50px
+    }
+    
+    .rowcamp{
+        padding-bottom: 5px;
+    }
+    
+    .nomecamp{
+        padding-bottom: 3px;
+        font-weight: 400;
+    }
+    
+    .inputcamp{
+        width: 95%;
+        border-radius: 10px;
+        border: 0.5px solid black;
+        background-color: rgba(44, 43, 43, 0.808);
+        font-weight: 400;
+        font-size: 1.2rem;
+        padding: 7px;
+        margin-bottom: 8px;
+    }
+    
+    .txtcamp{
+        width: 95%;
+        height: 80px;
+        border-radius: 10px;
+        border: 0.5px solid black;
+        background-color: rgba(44, 43, 43, 0.808);
+        font-weight: 400;
+        font-size: 1rem;
+        padding-top: 7px;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-bottom: 7px;
+        margin-bottom: 6px;
+    
+    }
+    
+    .Submit {
+        display: flex;
+        justify-content: center;
+      }
+    
+    .submitForm {
+        background-color: rgb(10, 153, 219);
+        height: 40px;
+        width: 150px;
+      
+        border-radius: 20px;
+        border: none;
+      
+        color: rgba(10, 34, 72);
+        font-size: 18px;
+        font-weight: bolder;
+      
+        -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+        transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+      }
+      
+      .submitForm:hover,
+      .submitForm:focus {
+        color: #fff;
+      
+        outline: 0;
+        cursor: pointer;
+      
+        box-shadow: 0 0 2px 2px rgb(10, 153, 219);
+      }
+      
+      

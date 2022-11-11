@@ -34,7 +34,7 @@
 
                     <div class="itens-lat">
                         <img src="./icones/account config.png" alt="">
-                        <button class="btn-lat">Conta</button>
+                        <a href="./account.php"><button class="btn-lat">Conta</button></a>
                     </div>
 
                     <div class="itens-lat">
@@ -72,6 +72,7 @@
                 </div>
 
             </aside>
+
         </div>
         <script src=./functions.js></script>
     </main>
