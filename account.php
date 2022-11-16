@@ -86,7 +86,7 @@
             </div>
                 <ul class="menuinf_user">
                 <li>
-                    <a href="#basicinfor_section"><img src="./icones/user.png">Informações Básicas</a>
+                    <a href="#basicinform"><img src="./icones/user.png">Informações Básicas</a>
                 </li>
                 <li>
                     <a href="#username_section"><img src="./icones/arroba.png">Nome de Usuário</a>
@@ -102,7 +102,7 @@
 
          <div class="colunform">
             <form class="validate">
-                <div class="basicinformation">
+                <div class="basicinformation" id="basicinform">
                     <div class="sectitle">
                         <h3>Informações Básicas</h3>
                     </div>
@@ -170,7 +170,7 @@
                                 <label for="fullname" >Visão Geral:</label>
                             </div>
                             <div>
-                                <textarea class="txtcamp" id="email"></textarea>
+                                <textarea style="resize: none" class="txtcamp" id="email"></textarea>
                             </div>
                         </div>
 
@@ -182,6 +182,47 @@
             </form>
         </div>
 
+        <div class="colunform">
+            <form class="validate">
+                <div class="basicinformation" id="username">
+                    <div class="sectitle">
+                        <h3>Nome de Usuário</h3>
+                    </div>
+                    <div class="submit">
+                        <button type="button" class="submitForm">Salvar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="colunform">
+            <form class="validate">
+                <div class="basicinformation" id="password">
+                    <div class="sectitle">
+                        <h3>Senha</h3>
+                    </div>
+                    <div class="submit">
+                        <button type="button" class="submitForm">Salvar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="colunform">
+            <form class="validate">
+                <div class="basicinformation" id="delete-account">
+                    <div class="sectitle">
+                        <h3>Deletar Conta</h3>
+                    </div>
+                    <div class="submit">
+                        <button type="button" class="submitForm-red">Deletar Conta</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        
+        <!-- fim da conteiner no div a baixo -->
         </div>
         <script src=./functions.js></script>
     </main>

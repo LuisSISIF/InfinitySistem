@@ -1,8 +1,14 @@
 body{
     background-color: rgba(2, 3, 43, 0.925);
     }
-    
+ .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
     .lat{
+
+        position: fixed;
         display: flex;
         flex-direction: column;
         max-width: 300px;
@@ -102,6 +108,8 @@ body{
     }
     
     .card_user{
+        position: fixed;
+        left: 330px;
         display: flex;
         flex-direction: column;
         width: 230px;
@@ -154,6 +162,11 @@ body{
         color: rgb(6, 241, 222);
     }
     
+    .colunform{
+       margin-left: 600px;
+
+    }
+    
     .basicinformation{
         display: flex;
         flex-direction: column;
@@ -166,7 +179,7 @@ body{
     .sectitle{
         height: 20px;
         padding: 1rem;
-        border-bottom: 0.5px solid white;
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.473);
     }
     
     .card_body{
@@ -242,4 +255,29 @@ body{
         box-shadow: 0 0 2px 2px rgb(10, 153, 219);
       }
       
+      .submitForm-red {
+        background-color: rgba(252, 0, 0, 0.486);
+        height: 40px;
+        width: 150px;
+      
+        border-radius: 20px;
+        border: none;
+      
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: bolder;
+      
+        -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+        transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+      }
+      
+      .submitForm-red:hover,
+      .submitForm-red:focus {
+        color: #fff;
+      
+        outline: 0;
+        cursor: pointer;
+      
+        box-shadow: 0 0 2px 2px rgb(10, 153, 219);
+      }
       
