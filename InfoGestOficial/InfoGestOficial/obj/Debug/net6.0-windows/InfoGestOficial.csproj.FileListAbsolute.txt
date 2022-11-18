@@ -27,3 +27,32 @@ C:\Users\llima\Desktop\InfoGestOficial\InfoGestOficial\bin\Debug\net6.0-windows\
 C:\Users\llima\Desktop\InfoGestOficial\InfoGestOficial\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
 C:\Users\llima\Desktop\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.csproj.CopyComplete
 C:\Users\llima\Desktop\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.cad_func.resources
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\bin\Debug\net6.0-windows\InfoGestOficial.exe
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\bin\Debug\net6.0-windows\InfoGestOficial.deps.json
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\bin\Debug\net6.0-windows\InfoGestOficial.runtimeconfig.json
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\bin\Debug\net6.0-windows\InfoGestOficial.dll
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\bin\Debug\net6.0-windows\InfoGestOficial.pdb
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.csproj.AssemblyReference.cache
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.cad_func.resources
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.login_form.resources
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.Pacesso.resources
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.primeiro_cad.resources
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.Properties.Resources.resources
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.csproj.GenerateResource.cache
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.AssemblyInfoInputs.cache
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.AssemblyInfo.cs
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.csproj.CoreCompileInputs.cache
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.csproj.CopyComplete
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.dll
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\refint\InfoGestOficial.dll
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.pdb
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.genruntimeconfig.cache
+C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\ref\InfoGestOficial.dll

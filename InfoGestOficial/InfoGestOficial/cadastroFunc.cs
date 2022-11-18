@@ -41,10 +41,9 @@ namespace InfoGestOficial
             f.Senha = txt_senha.Text;
             f.End = txt_end.Text;
             f.Tel = txt_fone.Text;
-            f.Salario = Convert.ToDecimal(txt_sal.Text);
+            f.Salario = Convert.ToInt32(txt_sal.Text);
             f.Cargo = txt_func.Text;
-            f.IdEmpresa = 1;
-            f.Adm = 1;
+            
 
             ConectaBanco conecta = new ConectaBanco();
             bool retorno = conecta.cad_func(f);

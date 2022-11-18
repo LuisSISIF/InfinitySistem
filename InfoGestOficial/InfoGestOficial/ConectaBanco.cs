@@ -52,8 +52,7 @@ namespace InfoGestOficial
             cmd.Parameters.AddWithValue("end_func", f.End);
             cmd.Parameters.AddWithValue("salario_func", f.Salario);
             cmd.Parameters.AddWithValue("funcao_func", f.Cargo);
-            cmd.Parameters.AddWithValue("idempresa", f.IdEmpresa);
-            cmd.Parameters.AddWithValue("adm", f.Adm);
+           
 
             try
             {
