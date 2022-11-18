@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InfoGestOficial;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,13 +20,25 @@ namespace InfoGestOficial
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Close();
         }
 
         private void btnverifica_Click(object sender, EventArgs e)
         {
-            primeiro_cad form3 = new primeiro_cad();
-            form3.ShowDialog();
+            int senha = Convert.ToInt32(txt_ativacao.Text);
+            if (senha == 3201596)
+            {
+                MessageBox.Show("Acesso Permitido");
+                Hide();
+                primeiro_cad form3 = new primeiro_cad();
+                form3.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Senha Incorreta");
+            }
         }
     }
 }
+
+
