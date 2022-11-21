@@ -4,6 +4,9 @@
     <Compile Update="cadastroFunc.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="primeiro_cad.cs">
       <SubType>Form</SubType>
     </Compile>

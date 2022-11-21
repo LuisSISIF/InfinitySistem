@@ -56,3 +56,4 @@ C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6
 C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.pdb
 C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.genruntimeconfig.cache
 C:\Users\llima\Desktop\Nova pasta\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\ref\InfoGestOficial.dll
+C:\Users\llima\Desktop\InfoGestOficial\InfoGestOficial\obj\Debug\net6.0-windows\InfoGestOficial.principal.resources

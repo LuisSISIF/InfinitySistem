@@ -1,3 +1,5 @@
+using System.Data;
+
 namespace InfoGestOficial
 {
     public partial class login_form : Form
@@ -26,6 +28,31 @@ namespace InfoGestOficial
         {
             Pacesso form2= new Pacesso();
             form2.ShowDialog();
+        }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            string login = txtlogin.Text;
+            string cmdSql = "call infogest.valida_user('"+login+"');";
+            var dados = Program.cx.listaFuncionarios(cmdSql);
+            if(dados.Rows.Count > 0 ) 
+            {
+                DataRow linhadados = dados.Rows[0];
+                string senhabanco = linhadados["Senha"].ToString();
+                if(senhabanco == txtsenha.Text ) 
+                {
+                    this.DialogResult = DialogResult.OK;
+                }
+                else
+                {
+                    MessageBox.Show("Senha Inválida.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Loguin Inválido.");
+            }
+
         }
     }
 }

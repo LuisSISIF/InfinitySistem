@@ -38,13 +38,13 @@ namespace InfoGestOficial
             {
                 conexao.Close();
             }
-        }// fim insereBanda
+        }// fim insereEmpresa
 
         public bool cad_func(funcionarios f)
         {
             MySqlCommand cmd = new MySqlCommand("cad_func", conexao);
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("nome_func", f.Nome);
+            cmd.Parameters.AddWithValue("nom_func", f.Nome);
             cmd.Parameters.AddWithValue("cpf_func", f.Cpf);
             cmd.Parameters.AddWithValue("login_func", f.Login);
             cmd.Parameters.AddWithValue("senha_func", f.Senha);
@@ -52,7 +52,8 @@ namespace InfoGestOficial
             cmd.Parameters.AddWithValue("end_func", f.End);
             cmd.Parameters.AddWithValue("salario_func", f.Salario);
             cmd.Parameters.AddWithValue("funcao_func", f.Cargo);
-           
+            cmd.Parameters.AddWithValue("adm", f.Adm);
+
 
             try
             {
@@ -69,6 +70,90 @@ namespace InfoGestOficial
             {
                 conexao.Close();
             }
-        }// fim insereBanda
+        }// fim cadastro funcionario
+        public bool testeConection()
+        {
+            try
+            {
+                conexao.Open();
+                return true;
+            }
+            catch (MySqlException e)
+            {
+                mensagem = "Erro:" + e.Message;
+                return false;
+            }
+        }
+        public DataTable listaFuncionarios(string cmdSql)
+        {
+            MySqlCommand cmd = new MySqlCommand("lista_func", conexao);
+            cmd.CommandType = CommandType.StoredProcedure;
+            try
+            {
+                
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                DataTable tabela = new DataTable();
+                da.Fill(tabela);
+                return tabela;
+            }// fim try
+            catch (MySqlException e)
+            {
+                mensagem = "Erro:" + e.Message;
+                return null;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+
+        }// fim lista_func
+
+        public DataTable valida(string cmdSql)
+        {
+            MySqlCommand cmd = new MySqlCommand("valida_user", conexao);
+            cmd.CommandType = CommandType.StoredProcedure;
+            try
+            {
+
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                DataTable tabela = new DataTable();
+                da.Fill(tabela);
+                return tabela;
+            }// fim try
+            catch (MySqlException e)
+            {
+                mensagem = "Erro:" + e.Message;
+                return null;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+
+            public bool insereFornecedor(fornecedores forn)
+            {
+                MySqlCommand cmd = new MySqlCommand("insere_fornecedor", conexao);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("nome", forn.Nome);
+                cmd.Parameters.AddWithValue("cnpj", forn.Cnpj);
+                cmd.Parameters.AddWithValue("endereco", forn.Endereco);
+
+                try
+                {
+                    conexao.Open();
+                    cmd.ExecuteNonQuery(); // executa o comando
+                    return true;
+                }
+                catch (MySqlException e)
+                {
+                    mensagem = "Erro:" + e.Message;
+                    return false;
+                }
+                finally
+                {
+                    conexao.Close();
+                }
+            }// fim insereBanda
+        }
     }
-}
+}     

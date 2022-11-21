@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5AFzHcoA4zgZW7+bdjh+3RJx9L/NXrKod1gpmpVyfy6FS1AFRZIKlUgBdxYslQKHc8C3LukxJdNcwkC8V2swWA==",
+  "dgSpecHash": "Oie0KoexwTKxcy4tZNdQGA8gE3d1tA++1JWAkzBatxn3qRnCpJAB+VlmhCsujBkQtCiZX4RwlKoMtqTNPm+ymQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\llima\\Desktop\\Nova pasta\\InfoGestOficial\\InfoGestOficial\\InfoGestOficial.csproj",
+  "projectFilePath": "C:\\Users\\llima\\Desktop\\InfoGestOficial\\InfoGestOficial\\InfoGestOficial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\llima\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\llima\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

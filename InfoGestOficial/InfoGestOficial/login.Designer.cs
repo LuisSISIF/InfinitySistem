@@ -104,6 +104,7 @@
             this.btnlogin.TabIndex = 11;
             this.btnlogin.Text = "Logar";
             this.btnlogin.UseVisualStyleBackColor = false;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // btnpri
             // 

@@ -899,11 +899,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\llima\\Desktop\\Nova pasta\\InfoGestOficial\\InfoGestOficial\\InfoGestOficial.csproj",
+      "projectUniqueName": "C:\\Users\\llima\\Desktop\\InfoGestOficial\\InfoGestOficial\\InfoGestOficial.csproj",
       "projectName": "InfoGestOficial",
-      "projectPath": "C:\\Users\\llima\\Desktop\\Nova pasta\\InfoGestOficial\\InfoGestOficial\\InfoGestOficial.csproj",
+      "projectPath": "C:\\Users\\llima\\Desktop\\InfoGestOficial\\InfoGestOficial\\InfoGestOficial.csproj",
       "packagesPath": "C:\\Users\\llima\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\llima\\Desktop\\Nova pasta\\InfoGestOficial\\InfoGestOficial\\obj\\",
+      "outputPath": "C:\\Users\\llima\\Desktop\\InfoGestOficial\\InfoGestOficial\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
